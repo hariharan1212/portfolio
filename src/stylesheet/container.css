@@ -1,0 +1,47 @@
+
+.grid_container{
+    display: flex; 
+}
+ 
+/* LHS STARTS */
+
+.lhs{
+     border: 1px solid black;
+     width: 25%;
+     margin-top: 40px;
+     background-color: rgb(156, 59, 42);
+}
+
+
+.imgdiv{
+    margin: 40px 25px 25px 25px ;
+}
+
+.imgdiv img{
+    border: 3px solid gainsboro;
+    border-radius: 300px;
+}
+
+.lists{
+    width: 100%;
+    text-align: center;
+}
+
+
+.lists p{
+    list-style: none;
+    margin-top: 30px;
+  }
+
+  .lists p:last-child{
+    margin-bottom: 30px;
+  }
+
+
+ /* rhs style  */
+
+.rhs{
+    border: 1px solid black;
+    width: 75%;
+    margin-top: 40px;
+}
